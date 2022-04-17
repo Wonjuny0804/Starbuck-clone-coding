@@ -1,0 +1,42 @@
+
+header{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+header{
+    /* display: ;  */
+    /* justify-content: space-between;  */
+    width: 100%;
+    background-color: antiquewhite;
+    padding-top: 1em;
+}
+.header_1{ 
+    /* float: right;  float랑 justify-content: end차이?*/
+    justify-content: end;
+    display: flex;
+    height: 40px;
+    list-style: none;
+    background-color: beige;
+}
+.header_1 li{
+    padding-right: 1.5em;
+} 
+.search{
+    height: 30px;
+}
+.header_2{
+    display: flex;
+    justify-content: end;
+    /* float: right; */
+    width: 100%;
+    height: 40px;
+    list-style: none;
+    background-color: lightblue;
+}
+.header_2 li{
+    /* float: right; */
+    padding-right: 1.5em;
+
+} 
