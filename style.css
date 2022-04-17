@@ -24,6 +24,10 @@ header{
 .header_1 li{
     padding-right: 1.5em;
 } 
+.header_1 li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 .search{
     background: none;
     border: none;
