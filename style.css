@@ -2,16 +2,23 @@
 header{
     position: relative;
     margin: 0;
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
     background-color: #f6f5ef;
     padding-top: 10px;
     border-top: 3px solid black;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
-.logo{
+.logo {
+    background: url("https://www.starbucks.co.kr/common/img/common/logo.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
     position: absolute;
-    top:15px;
-    left: 10px;
+    top:30px;
+    left: 30px; 
+    /* 이미지 크기를 어떻게 확장시킬까? */
 }
 .header_1{ 
     /* float: right;  float랑 justify-content: end차이?*/
@@ -19,7 +26,9 @@ header{
     display: flex;
     height: 40px;
     list-style: none;
-    font: normal 13px Arial, georgia;
+    font: normal 16px Arial, georgia;
+    margin-right: 30px;
+    padding: 1em;
 }
 .header_1 li{
     padding-right: 1.5em;
@@ -29,8 +38,12 @@ header{
     cursor: pointer;
 }
 .search{
-    background: none;
-    border: none;
+    background: white;
+    border-color: lightgray;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: -10px;
+    margin-left: -10px;
 
 }
 .header_2{
@@ -40,11 +53,49 @@ header{
     width: 100%;
     height: 40px;
     list-style: none;
-    font: normal 13px Arial, georgia;
+    font: normal 20px Arial, georgia;
+    padding: 1em;
 
 }
 .header_2 li{
     /* float: right; */
     padding-right: 1.5em;
-
 } 
+.header_2 li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.yellow{
+    width: 100%;
+    height: 700px;
+    background: url('https://image.istarbucks.co.kr/upload/common/img/main/2022/2022_Summer1_main_bg.jpg');
+}
+.find_text img{
+    display: block;
+    /* margin-top: 50px; 왜 yellow 전체가 움질일까? */
+    padding: 3em;
+}
+.find_text button{
+    background: none;
+    margin-left: 100px;
+    color: #d73a7a;
+    border: #d73a7a 3px solid;
+    border-radius: 7px;
+    width: 200px;
+    height: 50px;
+}
+.coffee_imgs{
+    position: relative;
+    background-color: #f6f5ef;
+}
+.rollin{
+    position: absolute;
+    top: -250px;
+    left: 400px;
+}
+.punch-img{
+    position: absolute;
+    top: -100px;
+    left: 200px;
+}
