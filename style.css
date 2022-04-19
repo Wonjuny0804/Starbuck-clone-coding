@@ -1,4 +1,13 @@
-
+@font-face {
+    font-family: 'SuncheonB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/SuncheonB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
 header{
     position: relative;
     margin: 0;
@@ -114,4 +123,52 @@ header{
     margin-left: 850px;
     width: 400px;
     height: 500px; 
+}
+.starbuck_notice{
+    display: flex;
+    justify-content: center;
+}
+.notice{
+    display: flex;
+    height: 80px;
+    color: white;
+    background-color: black;
+    justify-content: space-between;
+}
+.notice div{
+    font-size: 25px;
+    padding: 0.7em;
+    justify-content: center;
+}
+.notice div span{
+    font-size: 20px;
+    padding: 0.6em;
+}
+/* notice 부분 화면을 늘리면 따라온다 왜? */
+.notice button{
+    margin-right: 30px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin-top: 12px;
+}
+.promotion{
+    background-color: #f6f5ef;
+    font-family: 'SuncheonB';
+    font-size: 23px;
+    height: 80px;
+}
+.promotion span{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.promotion button{
+    margin-top: 7px;
+    margin-left: 60px;
+    background: none;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
 }
